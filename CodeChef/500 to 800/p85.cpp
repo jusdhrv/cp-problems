@@ -1,20 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
-        int n,a,b;
+    while (t--)
+    {
+        int n, a, b;
         cin >> n >> a >> b;
         int rounds = 0;
         int timet = 0;
-        while (n > 1) {
+        while (n > 1)
+        {
             rounds += 1;
-            timet += (a+b);
+            timet += (a + b);
             n /= 2;
         }
-        cout << timet-b << endl;
+        cout << timet - b << endl;
     }
 }

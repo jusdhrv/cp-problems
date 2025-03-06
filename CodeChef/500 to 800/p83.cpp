@@ -2,14 +2,15 @@
 #include <math.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
-        int a,b,c;
+    while (t--)
+    {
+        int a, b, c;
         cin >> a >> b >> c;
         int discount = min(a, min(b, c));
-        cout << (a+b+c)-discount << endl;
+        cout << (a + b + c) - discount << endl;
     }
 }

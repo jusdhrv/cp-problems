@@ -1,18 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         int n;
         cin >> n;
         int arr[n];
         int eligible = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             cin >> arr[i];
-            if (arr[i] >= 10 && arr[i] <= 60) {
+            if (arr[i] >= 10 && arr[i] <= 60)
+            {
                 eligible += 1;
             }
         }

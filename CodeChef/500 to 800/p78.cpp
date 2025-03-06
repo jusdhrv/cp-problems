@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    // your code goes here
     int r, o, c;
     cin >> r >> o >> c;
     int remaining_score = r - c;

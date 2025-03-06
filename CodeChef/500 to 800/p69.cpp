@@ -1,17 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
-        int a,b,c,d;
+    while (t--)
+    {
+        int a, b, c, d;
         cin >> a >> b >> c >> d;
-        if (a+c == 180 && b+d == 180) {
+        if (a + c == 180 && b + d == 180)
+        {
             cout << "yes" << endl;
         }
-        else {
+        else
+        {
             cout << "No" << endl;
         }
     }

@@ -15,7 +15,6 @@ int find_floor(int room)
 
 int main()
 {
-    // your code goes here
     int t;
     cin >> t;
     while (t--)

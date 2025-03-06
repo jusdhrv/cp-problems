@@ -1,23 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
+int main()
+{
     int t;
     cin >> t;
-    while (t--) {
-        int w,x,y,z;
+    while (t--)
+    {
+        int w, x, y, z;
         cin >> w >> x >> y >> z;
-        if (w == x or w == y or w == z) {
+        if (w == x or w == y or w == z)
+        {
             cout << "YES" << endl;
         }
-        else if (w == (x+y) or w == (y+z) or w == (x+z)) {
+        else if (w == (x + y) or w == (y + z) or w == (x + z))
+        {
             cout << "YES" << endl;
         }
-        else if (w == (x+y+z)) {
+        else if (w == (x + y + z))
+        {
             cout << "YES" << endl;
         }
-        else {
+        else
+        {
             cout << "NO" << endl;
         }
     }
